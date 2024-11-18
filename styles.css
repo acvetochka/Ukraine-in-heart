@@ -7,6 +7,7 @@ svg{
 	/* fill: url(#pattern) */
 }
 .region{
+  position: relative;
 	opacity: 1;
 	transition: transform 0.5s ease-in-out;
 }
@@ -18,7 +19,7 @@ svg{
 }
 
 #dropShadow {
-  filter: drop-shadow(5px 5px 10px #000000);
+  filter: drop-shadow(inset 10px 5px 10px 10px #000000);
 }
 
 .region:hover .fil6 {
